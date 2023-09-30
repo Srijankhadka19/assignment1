@@ -1,140 +1,179 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
+.box {
+  border: 5px solid #b62020;
 
-
-.box{
-    border: 5px solid #b62020;
-    
-    
-    height:98vh;
-    width:98vw;
-    background-color: aquamarine;
+  height: 98vh;
+  width: 98vw;
+  background-color: aquamarine;
 }
-.inner{
-    background-color: blanchedalmond;
-    height: 40%;
-    width: 100%;
+.inner {
+  background-color: blanchedalmond;
+  height: 40%;
+  width: 100%;
 }
 
-.inner1{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(8, 8, 160);
-    height: 20%;
-    width: 100%;
+.inner1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(8, 8, 160);
+  height: 20%;
+  width: 100%;
 }
 
-.logo{
-    /* margin: 16px;
+.logo {
+  /* margin: 16px;
     padding:25px; */
-    background-color: #b62020;
-    width: 500px;
-    
+  background-color: #b62020;
+  width: 500px;
 }
 
-.divtest img{
-    
-    height: 50px;
-    width: 60%;
+.divtest img {
+  height: 50px;
+  width: 60%;
 }
-.login{
-    background-color: #b62020;
-    /* margin: 16px;
+.login {
+  background-color: #b62020;
+  /* margin: 16px;
     padding:25px; */
-    width: 500px;
-    
+  width: 500px;
 }
 
-.login1{
-    width: 20%;
-    display: flex;
-    padding-left: 300px;
-    
+.login1 {
+  width: 20%;
+  display: flex;
+  padding-left: 300px;
 }
-.login1 button{
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    border: 2px solid #b62020;
-    border-radius: 12px;
-    height: 50px;
-    width: 100%;
-    
-    
+.login1 button {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  border: 2px solid #b62020;
+  border-radius: 12px;
+  height: 50px;
+  width: 100%;
 }
 
-.inner2{
-    
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(109, 69, 10);
-    height: 25%;
-    width: 100%;
+.inner2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(109, 69, 10);
+  height: 25%;
+  width: 100%;
 }
 
 .inner2 a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    
-    padding: 22px 8px 0px 8px;
-    /* padding: 25px; */
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+
+  padding: 22px 8px 0px 8px;
+  /* padding: 25px; */
 }
 
-.inner3{
-    margin-top: 2px;
-    display: flex;
-    justify-content: space-between;
-background-color: blue;
-    height: 70vh;
-    width: 100%;
+.inner3 {
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  height: 70vh;
+  width: 100%;
 }
 
-.leftdiv{
-    height: 100%;
-    width: 65%;
-    background-color: black;
+.leftdiv {
+  height: 100%;
+  width: 65%;
+  background-color: black;
 }
 
-.rightdiv{
-    padding: 0px 10px 0px 10px;
-    margin: 0px 5px 0px 5px;
-    height: 100%;
-    width: 32%;
-    background-color: black;
+.rightdiv {
+  padding: 0px 10px 0px 10px;
+  margin: 0px 5px 0px 5px;
+  height: 100%;
+  width: 32%;
+  background-color: black;
 }
 
-
-.upperdiv img{
-    border: 1px solid #dadada;
-    margin-left: 50px;
-    height: 100%;
-    width: 90%;
-    border-radius: 10px;
+.upperdiv img {
+  border: 1px solid #dadada;
+  margin-left: 50px;
+  height: 100%;
+  width: 90%;
+  border-radius: 10px;
 }
 
-.upperdiv{
-    background-color: blanchedalmond;
-    height: 60%;
-    width: 100%;
+.upperdiv {
+  background-color: blanchedalmond;
+  height: 60%;
+  width: 100%;
 }
 
-.lowerdiv{
-    background-color: rgb(142, 88, 7);
-    height: 40%;
-    width: 100%;
+.lowerdiv {
+  background-color: rgb(142, 88, 7);
+  height: 40%;
+  width: 100%;
 }
 
-.upperdiv2{
-    background-color: blueviolet;
-    height: 50%;
-    width: 100%;
+.upperdiv2 {
+  background-color: blueviolet;
+  height: 50%;
+  width: 100%;
 }
 
-.lowerdiv2{
-    background-color: rgb(172, 134, 207);
-    height: 50%;
-    width: 100%;
+.lowerdiv2 {
+  background-color: rgb(172, 134, 207);
+  height: 50%;
+  width: 100%;
+}
+
+.content h1 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.contentlist p {
+  padding: 25px;
+  text-align: center;
+}
+
+.heading h1,
+p {
+  padding-top: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.heading h2,
+p {
+  padding-top: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+/* .text{
+    width: 70vw;
+    height: 60vh;
+} */
+
+label {
+  margin-top: 12px;
+  font-size: 20px;
+  margin-left: 15px;
+}
+textarea {
+  width: 95%;
+  padding-left: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 12px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
